@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "dist/slot-masheen.umd.js",
   "module": "dist/slot-masheen.es5.js",
+  "web": "dist/slot-masheen.js",
   "typings": "dist/types/slot-masheen.d.ts",
   "files": [
     "dist"
