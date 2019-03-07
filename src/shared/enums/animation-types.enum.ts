@@ -1,4 +1,5 @@
 export enum ANIMATION_TYPES {
   simple = 'simple',
-  slot = 'slot'
+  slot = 'slot',
+  none = 'none'
 }

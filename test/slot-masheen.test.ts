@@ -1,14 +1,16 @@
-import DummyClass from "../src/slot-masheen"
+import SlotMasheen from '../src/slot-masheen'
+import { DEFAULT_CONFIG } from '../src/constants/default-config'
 
 /**
- * Dummy test
+ * Root Class
  */
-describe("Dummy test", () => {
-  it("works if true is truthy", () => {
+describe('Root Class', () => {
+  it('works if true is truthy', () => {
     expect(true).toBeTruthy()
   })
 
-  it("DummyClass is instantiable", () => {
-    expect(new DummyClass()).toBeInstanceOf(DummyClass)
+  it('SlotMasheen is instantiable', () => {
+    const mockConfig = { ...DEFAULT_CONFIG }
+    expect(new SlotMasheen(mockConfig)).toBeInstanceOf(SlotMasheen)
   })
 })
